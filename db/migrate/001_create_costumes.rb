@@ -13,7 +13,7 @@ class CreateCostumes < ActiveRecord::Mirgration[4.2]
     create_table :costumes do |c|
       c.string :name
       c.integer :price
-      c.string :size
+      c.integer :size
       c.string :image_url
       c.timestamps
     end
