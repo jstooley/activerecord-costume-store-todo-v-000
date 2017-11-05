@@ -9,6 +9,6 @@
 # value types according to the spec
 class CreateCostumes < ActiveRecord::Mirgration
 
-  def change 
+  def change
   end
 end
