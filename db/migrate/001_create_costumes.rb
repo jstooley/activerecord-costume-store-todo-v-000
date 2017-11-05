@@ -11,6 +11,7 @@ class CreateCostumes < ActiveRecord::Mirgration[5.0]
 
   def change
     create_table :costumes do |c|
+      c.string :name
     end
   end
 end
