@@ -15,6 +15,7 @@ class CreateCostumes < ActiveRecord::Mirgration[4.2]
       c.float :price
       c.string :size
       c.string :image_url
+      c.timestamps
     end
 
   end
