@@ -12,6 +12,9 @@ class CreateCostumes < ActiveRecord::Mirgration[5.0]
   def change
     create_table :costumes do |c|
       c.string :name
+      c.float :price
+      c.string :size
+      c.string :image_url
     end
   end
 end
