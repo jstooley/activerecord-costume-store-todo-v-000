@@ -16,6 +16,6 @@ class CreateCostumes < ActiveRecord::Mirgration[4.2]
       c.string :size
       c.string :image_url
     end
-    
+
   end
 end
